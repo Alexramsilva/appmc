@@ -32,8 +32,10 @@ st.set_page_config(
 # ============================================================
 # TÍTULO
 # ============================================================
+st.image("UNRC.png", caption="Universidad Nacional Rosario Castellanos", width=300)
+st.title("Simulación Bursátil y Avanzada en Finanzas  LCFI-UNRC")
 
-st.title("📈 Simulador Monte Carlo de Acciones")
+st.title("Simulador Monte Carlo de Acciones")
 
 st.write(
     """
