@@ -33,7 +33,7 @@ st.set_page_config(
 # TÍTULO
 # ============================================================
 st.image("UNRC.png", caption="Universidad Nacional Rosario Castellanos", width=300)
-st.title("Simulación Bursátil y Avanzada en Finanzas  LCFI-UNRC")
+st.title(" Simulación Bursátil y Financiera Avanzada en Finanzas  LCFI-UNRC")
 
 st.title("Simulador Monte Carlo de Acciones")
 
@@ -86,7 +86,7 @@ dias_futuros = st.sidebar.number_input(
     "Días futuros",
     min_value=1,
     max_value=1000,
-    value=50,
+    value=252,
     step=1
 )
 
@@ -622,7 +622,7 @@ if ejecutar:
 
             st.caption(
                 """
-                ⚠️ El modelo utiliza un movimiento browniano geométrico
+                ⚠️ El modelo utiliza un movimiento browniano geométrico (en base al lema de Kiyosi Itô)
                 basado en rendimientos históricos. Los resultados son
                 escenarios simulados y no constituyen una predicción
                 ni una recomendación de inversión.
