@@ -32,7 +32,7 @@ st.set_page_config(
 # ============================================================
 # TÍTULO
 # ============================================================
-st.image("UNRC.png", caption="Universidad Nacional Rosario Castellanos", width=300)
+st.image("UNRC.svg", caption="Universidad Nacional Rosario Castellanos", width=300)
 st.title("Licenciatura en Contaduría y Finanzas UNRC")
 
 st.subheader("Reto Actinver 2026")
