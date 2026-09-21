@@ -37,7 +37,7 @@ st.title("Licenciatura en Contaduría y Finanzas UNRC")
 
 st.subheader("Reto Actinver 2026")
 
-st.write(Simulación Monte carlo)
+st.write("Simulación Monte Carlo")
 st.write(
     """
     Esta aplicación estima posibles precios futuros de una acción
