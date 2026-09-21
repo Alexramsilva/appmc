@@ -33,10 +33,11 @@ st.set_page_config(
 # TÍTULO
 # ============================================================
 st.image("UNRC.png", caption="Universidad Nacional Rosario Castellanos", width=300)
-st.title(" Simulación Bursátil y Financiera Avanzada en Finanzas  LCFI-UNRC")
+st.title("Licenciatura en Contaduría y Finanzas UNRC")
 
-st.title("Simulador Monte Carlo de Acciones")
+st.subheader("Reto Actinver 2026")
 
+st.write(Simulación Monte carlo)
 st.write(
     """
     Esta aplicación estima posibles precios futuros de una acción
